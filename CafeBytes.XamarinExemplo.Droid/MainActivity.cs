@@ -43,8 +43,9 @@ namespace CafeBytes.Demo.Droid
 			_submitButton.Click += SendData;
 
 			_progressDialog = new ProgressDialog(this);
-			_progressDialog.SetTitle("Cadastro");
-			_progressDialog.SetMessage("Enviando dados...");
+			_progressDialog.SetTitle(this.Resources.GetString(Resource.String.register));
+			_progressDialog.SetMessage(this.Resources.GetString(Resource.String.send_data));
+			_progressDialog.SetProgressStyle (ProgressDialogStyle.Spinner);
 		}
 
 		public async void SendData(object sender, EventArgs e)
@@ -59,14 +60,13 @@ namespace CafeBytes.Demo.Droid
 			var res = await _manager.RegisterUser (user);
 			_progressDialog.Hide();
 			ShowDialog (res);
-	
 		}
 
 
 		public void ShowDialog(string message)
 		{
 			AlertDialog alertDialog = new AlertDialog.Builder(this).Create();
-			alertDialog.SetTitle("Cadastro realizado.");
+			alertDialog.SetTitle(this.Resources.GetString(Resource.String.send_data));
 			alertDialog.SetMessage(message);
 			alertDialog.Show();
 		}
