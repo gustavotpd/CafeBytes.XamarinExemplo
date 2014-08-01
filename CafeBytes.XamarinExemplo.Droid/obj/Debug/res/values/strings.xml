@@ -1,1 +1,1 @@
-<resources><string name="submit">Enviar</string><string name="app_name">CafeBytes.Demo.Android</string></resources>
+<resources><string name="submit">Enviar</string><string name="app_name">CafeBytes.Demo.Android</string><string name="submit_sucess">Cadastro realizado.</string><string name="send_data">Enviando dados...</string><string name="register">Cadastro</string><string name="input_name">Qual seu nome completo?</string><string name="input_email">Queremos saber seu e-mail</string></resources>

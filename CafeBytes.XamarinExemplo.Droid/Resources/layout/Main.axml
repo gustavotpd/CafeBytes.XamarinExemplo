@@ -30,7 +30,7 @@
         android:background="@drawable/textlines"
         android:textColor="#000000"
         android:textSize="30sp"
-        android:hint="Qual seu nome completo?" />
+        android:hint="@string/input_name" />
     <EditText
         android:inputType="textEmailAddress"
         android:layout_marginTop="20dp"
@@ -40,7 +40,7 @@
         android:background="@drawable/textlines"
         android:textColor="#000000"
         android:textSize="30sp"
-        android:hint="Queremos saber seu e-mail" />
+        android:hint="@string/input_email" />
     <LinearLayout
         android:id="@+id/LinearLayout1"
         android:layout_width="fill_parent"
