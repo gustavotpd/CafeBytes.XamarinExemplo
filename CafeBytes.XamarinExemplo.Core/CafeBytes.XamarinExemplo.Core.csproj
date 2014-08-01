@@ -41,7 +41,7 @@
       <Name>CafeBytes.XamarinExemplo.Contract</Name>
     </ProjectReference>
     <ProjectReference Include="..\CafeBytes.XamarinExemplo.Http\CafeBytes.XamarinExemplo.Http.csproj">
-      <Project>{14a3a849-4935-42ac-a0fb-6b505d409e32}</Project>
+      <Project>{14A3A849-4935-42AC-A0FB-6B505D409E32}</Project>
       <Name>CafeBytes.XamarinExemplo.Http</Name>
     </ProjectReference>
     <ProjectReference Include="..\CafeBytes.XamarinExemplo.ServerService\CafeBytes.XamarinExemplo.ServerService.csproj">
