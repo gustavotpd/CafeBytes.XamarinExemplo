@@ -6,6 +6,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using CafeBytes.XamarinExemplo.Droid;
+using CafeBytes.XamarinExemplo.Core;
+using CafeBytes.XamarinExemplo.Contract;
 
 namespace CafeBytes.Demo.Droid
 {
@@ -16,6 +18,7 @@ namespace CafeBytes.Demo.Droid
 		private EditText _email;
 		private Button _submitButton;
 		private ImageView _logo;
+		private IFormManager _manager;
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -24,11 +27,13 @@ namespace CafeBytes.Demo.Droid
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
+			_manager = new FormManager ();
+
 			_logo = FindViewById<ImageView> (Resource.Id.imageView1);
 			_name = FindViewById<EditText> (Resource.Id.nameEditText);
 			_email = FindViewById<EditText> (Resource.Id.emailEditText);
 
-			_logo.SetBackgroundResource (Resource.Drawable.logo);
+			_logo.SetBackgroundResource (Resource.Drawable.rsz_6logo);
 
 			// Get our button from the layout resource,
 			// and attach an event to it
@@ -39,6 +44,14 @@ namespace CafeBytes.Demo.Droid
 
 		public void SendData(object sender, EventArgs e)
 		{
+			var name = _name.Text;
+			var email = _email.Text;
+
+			Person user = new Person (name, email);
+
+			var res = _manager.RegisterUser (user);
+
+			Toast.MakeText(Android.App.Application.Context, "bem vindo", ToastLength.Long).Show();
 
 		}
 	}

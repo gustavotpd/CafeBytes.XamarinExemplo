@@ -17,20 +17,23 @@ namespace CafeBytes.XamarinExemplo.Http
 
         public FormProvider ()
         {
-            BaseAddress = new Uri ("http://hmgcemig2.hmg.c2m2.take.io/CafeBytes/");
+           
             _client = new HttpClient();
             _client.BaseAddress = BaseAddress;
             _client.Timeout = new TimeSpan(0, 3, 0);
         }
 
-        public async Task<string> RegisterUser(object objToPost)
+		public async Task<string> RegisterUser(string name, string email)
         {
-            var body = SerializeToString(objToPost);
-            var content = new StringContent(body, Encoding.UTF8, "text/json");
+			string baseAddress = "http://hmgcemig2.hmg.c2m2.take.io/CafeBytes/?name={0}&email={1}";
 
-            var response = await _client.PostAsync(BaseAddress, content);
+			var baseAddressWithParams = String.Format (baseAddress, name, email);
 
-            return await response.Content.ReadAsStringAsync();
+			Uri uri = new Uri (baseAddressWithParams);
+
+			var response = await _client.GetAsync(uri);
+
+			return await response.Content.ReadAsStringAsync ();
         }
 
         protected string SerializeToString(Object obj)

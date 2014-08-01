@@ -1,4 +1,6 @@
-/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile7.AssemblyAttribute.cs
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/bin/Debug/CafeBytes.XamarinExemplo.Http.dll.mdb
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/bin/Debug/CafeBytes.XamarinExemplo.Http.dll
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/obj/Debug/CafeBytes.XamarinExemplo.Http.dll
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/obj/Debug/CafeBytes.XamarinExemplo.Http.dll.mdb
 /Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/bin/Debug/Newtonsoft.Json.dll
-/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/bin/Debug/System.Net.Http.Primitives.dll
-/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/bin/Debug/System.Net.Http.Extensions.dll
