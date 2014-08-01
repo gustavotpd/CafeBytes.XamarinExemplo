@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("CafeBytes.Demo.Android.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("CafeBytes.XamarinExemplo.Droid.Resource", IsApplication=true)]
 
-namespace CafeBytes.Demo.Android
+namespace CafeBytes.XamarinExemplo.Droid
 {
 	
 	

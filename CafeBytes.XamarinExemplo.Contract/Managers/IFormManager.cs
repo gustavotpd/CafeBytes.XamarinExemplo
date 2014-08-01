@@ -5,6 +5,6 @@ namespace CafeBytes.XamarinExemplo.Contract
 {
 	public interface IFormManager
 	{
-		Task RegisterUser (object user);
+		Task RegisterUser (Person user);
 	}
 }

@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using CafeBytes.XamarinExemplo.Droid;
 
 namespace CafeBytes.Demo.Droid
 {

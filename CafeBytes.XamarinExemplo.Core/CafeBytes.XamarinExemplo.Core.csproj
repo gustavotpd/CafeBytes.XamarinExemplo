@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>CafeBytes.XamarinExemplo.Core</RootNamespace>
     <AssemblyName>CafeBytes.XamarinExemplo.Core</AssemblyName>
-    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -40,18 +40,13 @@
       <Project>{3DA2FF5A-3ED6-4E3E-9CC9-CF74B8B760A0}</Project>
       <Name>CafeBytes.XamarinExemplo.Contract</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CafeBytes.XamarinExemplo.Http\CafeBytes.XamarinExemplo.Http.csproj">
+      <Project>{14a3a849-4935-42ac-a0fb-6b505d409e32}</Project>
+      <Name>CafeBytes.XamarinExemplo.Http</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CafeBytes.XamarinExemplo.ServerService\CafeBytes.XamarinExemplo.ServerService.csproj">
       <Project>{A87B62FF-B7EC-46C6-9D6D-BA6ED89F3607}</Project>
       <Name>CafeBytes.XamarinExemplo.ServerService</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Managers\" />
-    <Folder Include="Validators\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\CafeBytes.Demo\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
-    </Reference>
   </ItemGroup>
 </Project>

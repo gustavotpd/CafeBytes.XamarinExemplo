@@ -18,7 +18,7 @@ namespace CafeBytes.XamarinExemplo.Core
 
 		public Task RegisterUser (Person user)
 		{
-			_formProvider.RegisterUser (new Uri(),user);
+			return _formProvider.RegisterUser (user);
 		}
 	}
 }
