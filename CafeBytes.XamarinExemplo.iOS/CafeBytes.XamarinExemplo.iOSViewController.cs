@@ -3,13 +3,19 @@ using System.Drawing;
 
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using CafeBytes.XamarinExemplo.Core;
+using CafeBytes.XamarinExemplo.Contract;
 
 namespace CafeBytes.XamarinExemplo.iOS
 {
 	public partial class CafeBytes_XamarinExemplo_iOSViewController : UIViewController
 	{
+		private IFormManager _manager;
+
 		public CafeBytes_XamarinExemplo_iOSViewController (IntPtr handle) : base (handle)
 		{
+			_manager = new FormManager ();
+
 		}
 
 		public override void DidReceiveMemoryWarning ()
@@ -47,6 +53,22 @@ namespace CafeBytes.XamarinExemplo.iOS
 		public override void ViewDidDisappear (bool animated)
 		{
 			base.ViewDidDisappear (animated);
+		}
+
+		[Action ("Enviar_TouchUpInside:")]
+
+		async void Enviar_TouchUpInside (UIButton sender)
+		{
+			Person person = new Person (NameTextField.Text, EmailTextField.Text);
+			var res = await _manager.RegisterUser(person);
+
+			UIAlertView alert = new UIAlertView();
+			alert.Message = res;
+			alert.Title = "Cadastro";
+			alert.Show();
+			alert.DismissWithClickedButtonIndex (-1, true);
+
+
 		}
 
 		#endregion

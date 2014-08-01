@@ -1,0 +1,16 @@
+mscorlib.dll
+System.dll
+System.Core.dll
+Mono.Dynamic.Interpreter.dll
+System.Xml.dll
+CafeBytes.XamarinExemplo.Contract.dll
+System.Runtime.dll
+System.ComponentModel.Composition.dll
+System.Threading.Tasks.dll
+CafeBytes.XamarinExemplo.Core.dll
+CafeBytes.XamarinExemplo.Http.dll
+System.Net.Http.dll
+System.Diagnostics.Debug.dll
+Newtonsoft.Json.dll
+System.Runtime.Serialization.dll
+System.Text.RegularExpressions.dll

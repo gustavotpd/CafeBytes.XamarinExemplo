@@ -1,0 +1,31 @@
+# Version: 7.2.5.5 (87026b6)
+# [first argument, ignore] # /Users/Takenet/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.iOS/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/Takenet/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/Takenet/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.iOS/bin/iPhoneSimulator/Debug/CafeBytesXamarinExemploiOS.app \
+	-r \
+	/Users/Takenet/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Core/bin/Debug/CafeBytes.XamarinExemplo.Core.dll \
+	-r \
+	/Users/Takenet/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Contract/bin/Debug/CafeBytes.XamarinExemplo.Contract.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/Takenet/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.iOS/bin/iPhoneSimulator/Debug/CafeBytesXamarinExemploiOS.exe \
