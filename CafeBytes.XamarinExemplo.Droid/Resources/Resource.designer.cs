@@ -53,6 +53,9 @@ namespace CafeBytes.XamarinExemplo.Droid
 			// aapt resource value: 0x7f020002
 			public const int rsz_6logo = 2130837506;
 			
+			// aapt resource value: 0x7f020003
+			public const int textlines = 2130837507;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -66,6 +69,9 @@ namespace CafeBytes.XamarinExemplo.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050004
+			public const int LinearLayout1 = 2131034116;
+			
 			// aapt resource value: 0x7f050003
 			public const int emailEditText = 2131034115;
 			
@@ -75,8 +81,8 @@ namespace CafeBytes.XamarinExemplo.Droid
 			// aapt resource value: 0x7f050002
 			public const int nameEditText = 2131034114;
 			
-			// aapt resource value: 0x7f050004
-			public const int submitButton = 2131034116;
+			// aapt resource value: 0x7f050005
+			public const int submitButton = 2131034117;
 			
 			// aapt resource value: 0x7f050000
 			public const int textView1 = 2131034112;

@@ -24,3 +24,4 @@
 /Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Droid/bin/Debug/System.Diagnostics.Debug.dll
 /Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Droid/bin/Debug/Newtonsoft.Json.dll
 /Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Droid/obj/Debug/res/drawable/rsz_6logo.png
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Droid/obj/Debug/res/drawable/textlines.xml

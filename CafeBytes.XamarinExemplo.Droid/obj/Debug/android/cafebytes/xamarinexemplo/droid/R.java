@@ -14,12 +14,14 @@ public final class R {
         public static final int icon=0x7f020000;
         public static final int logo=0x7f020001;
         public static final int rsz_6logo=0x7f020002;
+        public static final int textlines=0x7f020003;
     }
     public static final class id {
+        public static final int LinearLayout1=0x7f050004;
         public static final int emailEditText=0x7f050003;
         public static final int imageView1=0x7f050001;
         public static final int nameEditText=0x7f050002;
-        public static final int submitButton=0x7f050004;
+        public static final int submitButton=0x7f050005;
         public static final int textView1=0x7f050000;
     }
     public static final class layout {

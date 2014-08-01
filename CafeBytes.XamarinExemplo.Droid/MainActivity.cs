@@ -14,6 +14,7 @@ namespace CafeBytes.Demo.Droid
 	[Activity (Label = "CafeBytes.XamarinExemplo.Droid", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
+		private ProgressDialog _progressDialog;
 		private EditText _name;
 		private EditText _email;
 		private Button _submitButton;
@@ -33,26 +34,41 @@ namespace CafeBytes.Demo.Droid
 			_name = FindViewById<EditText> (Resource.Id.nameEditText);
 			_email = FindViewById<EditText> (Resource.Id.emailEditText);
 
-			_logo.SetBackgroundResource (Resource.Drawable.rsz_6logo);
+			_logo.SetBackgroundResource (Resource.Drawable.logo);
 
 			// Get our button from the layout resource,
 			// and attach an event to it
 			_submitButton = FindViewById<Button> (Resource.Id.submitButton);
 			
 			_submitButton.Click += SendData;
+
+			_progressDialog = new ProgressDialog(this);
+			_progressDialog.SetTitle("Cadastro");
+			_progressDialog.SetMessage("Enviando dados...");
 		}
 
-		public void SendData(object sender, EventArgs e)
+		public async void SendData(object sender, EventArgs e)
 		{
+			_progressDialog.Show();
+
 			var name = _name.Text;
 			var email = _email.Text;
 
 			Person user = new Person (name, email);
 
-			var res = _manager.RegisterUser (user);
+			var res = await _manager.RegisterUser (user);
+			_progressDialog.Hide();
+			ShowDialog (res);
+	
+		}
 
-			Toast.MakeText(Android.App.Application.Context, "bem vindo", ToastLength.Long).Show();
 
+		public void ShowDialog(string message)
+		{
+			AlertDialog alertDialog = new AlertDialog.Builder(this).Create();
+			alertDialog.SetTitle("Cadastro realizado.");
+			alertDialog.SetMessage(message);
+			alertDialog.Show();
 		}
 	}
 }

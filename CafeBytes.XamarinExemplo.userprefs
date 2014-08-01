@@ -2,17 +2,21 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="Android.MonoForAndroid_API_10" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CafeBytes.XamarinExemplo.Droid/MainActivity.cs">
     <Files>
-      <File FileName="CafeBytes.XamarinExemplo.Droid/MainActivity.cs" Line="52" Column="33" />
-      <File FileName="CafeBytes.XamarinExemplo.Core/Managers/FormManager.cs" Line="1" Column="1" />
+      <File FileName="CafeBytes.XamarinExemplo.Droid/MainActivity.cs" Line="44" Column="4" />
+      <File FileName="CafeBytes.XamarinExemplo.Core/Managers/FormManager.cs" Line="20" Column="1" />
       <File FileName="CafeBytes.XamarinExemplo.Contract/Managers/IFormManager.cs" Line="1" Column="1" />
       <File FileName="CafeBytes.XamarinExemplo.Core/Validators/Validator.cs" Line="1" Column="1" />
       <File FileName="CafeBytes.XamarinExemplo.Contract/Models/Person.cs" Line="1" Column="1" />
       <File FileName="CafeBytes.XamarinExemplo.Contract/Validators/IValidator.cs" Line="1" Column="1" />
-      <File FileName="CafeBytes.XamarinExemplo.Http/Providers/FormProvider.cs" Line="1" Column="1" />
+      <File FileName="CafeBytes.XamarinExemplo.Http/Providers/FormProvider.cs" Line="36" Column="16" />
+      <File FileName="CafeBytes.XamarinExemplo.Droid/Resources/drawable/textlines.xml" Line="20" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Droid/MainActivity.cs" line="61" column="1" />
+      <Breakpoint file="/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Http/Providers/FormProvider.cs" line="30" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Application.CafeBytes.XamarinExemplo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
