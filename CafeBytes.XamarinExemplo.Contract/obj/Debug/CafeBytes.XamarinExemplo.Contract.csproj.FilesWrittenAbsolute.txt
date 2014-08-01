@@ -1,0 +1,5 @@
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Contract/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Contract/bin/Debug/CafeBytes.XamarinExemplo.Contract.dll.mdb
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Contract/bin/Debug/CafeBytes.XamarinExemplo.Contract.dll
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Contract/obj/Debug/CafeBytes.XamarinExemplo.Contract.dll
+/Users/gustavo/GitHub/CafeBytes.XamarinExemplo/CafeBytes.XamarinExemplo.Contract/obj/Debug/CafeBytes.XamarinExemplo.Contract.dll.mdb

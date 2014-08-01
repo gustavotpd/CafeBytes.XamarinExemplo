@@ -1,0 +1,43 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CafeBytes.XamarinExemplo.Http/Providers/FormProvider.cs">
+    <Files>
+      <File FileName="CafeBytes.XamarinExemplo.Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="CafeBytes.XamarinExemplo.Core/Managers/FormManager.cs" Line="1" Column="1" />
+      <File FileName="CafeBytes.XamarinExemplo.Contract/Managers/IFormManager.cs" Line="1" Column="1" />
+      <File FileName="CafeBytes.XamarinExemplo.Core/Validators/Validator.cs" Line="1" Column="1" />
+      <File FileName="CafeBytes.XamarinExemplo.Contract/Models/Person.cs" Line="1" Column="1" />
+      <File FileName="CafeBytes.XamarinExemplo.Contract/Validators/IValidator.cs" Line="1" Column="1" />
+      <File FileName="CafeBytes.XamarinExemplo.Http/Providers/FormProvider.cs" Line="15" Column="11" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Application" expanded="True">
+            <Node name="CafeBytes.XamarinExemplo.Droid" expanded="True">
+              <Node name="References" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="Core" expanded="True">
+            <Node name="CafeBytes.XamarinExemplo.Core" expanded="True">
+              <Node name="References" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="ServerService" expanded="True">
+            <Node name="CafeBytes.XamarinExemplo.Http" expanded="True">
+              <Node name="References" expanded="True">
+                <Node name="System.Net.Http.Primitives" selected="True" />
+              </Node>
+              <Node name="Providers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Application.CafeBytes.XamarinExemplo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+</Properties>
